@@ -1,0 +1,46 @@
+$thetransition: all .25s cubic-bezier(1,.25,0,.75) 0s;
+
+a {
+  text-decoration: none;
+  position: relative;
+
+  /*
+    webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    -o-transition: all 0.15s ease-out;
+    -ms-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  */
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #cc1f1a;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: $thetransition;
+    transition: $thetransition;
+  }
+  &:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.link-menu {
+  font-size: 24px;
+  font-weight: 700;
+  a {
+    margin: .5em 1.5em .5em 0;
+  }
+  &.about {
+    position: absolute;
+    top: 1rem;
+  }
+}
