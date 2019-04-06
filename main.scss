@@ -33,6 +33,10 @@ a {
   }
 }
 
+.about--wrapper {
+  margin-top: 5em;
+}
+
 .link-menu {
   a {
     font-size: 24px;
@@ -44,6 +48,10 @@ a {
   &.about {
     position: absolute;
     top: 0;
+  }
+  &.profile {
+    position: relative;
+    margin: 10%;
   }
   //&.profile {
   //  position: relative;
