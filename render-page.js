@@ -10199,7 +10199,7 @@ module.exports = __webpack_require__(/*! ../lib/plugins/container */ "./node_mod
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = {"data":{"site":{"buildTime":"2019-04-06"}}};
+module.exports = {"data":{"site":{"buildTime":"2019-04-07"}}};
 
 /***/ }),
 
@@ -10453,7 +10453,7 @@ var Head = function Head(props) {
     href: "/favicons/favicon-16x16.png"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("meta", {
     name: "gatsby-starter",
-    content: "Gatsby Starter Portfolio Cara"
+    content: "Gatsby Starter Portfolio"
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("link", {
     rel: "shortcut icon",
     href: "favicon.ico"
@@ -10515,7 +10515,10 @@ var Head = function Head(props) {
     type: "application/ld+json"
   }, JSON.stringify(schemaOrgWebPage)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("script", {
     type: "application/ld+json"
-  }, JSON.stringify(breadcrumb)));
+  }, JSON.stringify(breadcrumb)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("link", {
+    rel: "stylesheet",
+    href: "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+  }));
 };
 
 Head.propTypes = {
@@ -11037,9 +11040,26 @@ var AboutDesc = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p.with
   "paddingTop": "1.5rem",
   "textAlign": "justify"
 });
+var IconContainer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
+  displayName: "profile__IconContainer",
+  componentId: "sc-17e71di-5"
+})(["", ";"], {
+  "color": "#ffffff",
+  "fontFamily": "\"Menlo\", \"Monaco\", \"Consolas\", \"Liberation Mono\", \"Courier New\", \"monospace\"",
+  "paddingTop": "3rem",
+  "@media (min-width: 900px)": {
+    "paddingTop": "0",
+    "paddingLeft": "3rem",
+    "fontSize": "1.875rem"
+  },
+  "fontSize": "1.5rem",
+  "@media (min-width: 1200px)": {
+    "fontSize": "2.25rem"
+  }
+});
 var Footer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].footer.withConfig({
   displayName: "profile__Footer",
-  componentId: "sc-17e71di-5"
+  componentId: "sc-17e71di-6"
 })(["", ";"], {
   "textAlign": "center",
   "color": "#9babb4",
@@ -11053,7 +11073,7 @@ var Footer = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].footer.wi
 });
 var ContactText = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p.withConfig({
   displayName: "profile__ContactText",
-  componentId: "sc-17e71di-6"
+  componentId: "sc-17e71di-7"
 })(["", ";"], {
   "color": "#dae4e9",
   "fontFamily": "\"Menlo\", \"Monaco\", \"Consolas\", \"Liberation Mono\", \"Courier New\", \"monospace\"",
@@ -11083,9 +11103,25 @@ var Profile = function Profile() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutHero, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Avatar, {
     src: _images_avatar_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
     alt: "John Doe"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 24 years old ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 web and software developer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 based in Tirana, Albania")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutDesc, null, "For the past 3 years, I've been actively developing web apps and software in different domains and for various clients. I've worked extensively with Agile and Scrum teams, but also freelanced work to various, local clients. Currently, I'm engaged as a full-time web developer at 'Ritech Solutions', at its offices in Tirana, Albania. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "My specialties mostly include JavaScript and Python-based environments. Most of my experiences have been on client-side apps, however I've worked with highly-specialized back-end teams very often, and have developed APIs and cloud-based data structures before, as a full-stack developer. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " My preferred tech stack is JavaScript/Node.js-based [preferably coupled with Amazon Web Services (which I use in my everyday work), a a Vue or React powered interface (I prefer to decide that case-by-case)]. Besides the affirmed above JS libraries, I've experimented with new SSR-based libraries, such as Gatsby (where I'm also a maintainer/contributor), Next.js and new design patterns such as functional programming or Serverless. The last one has made me love cloud services even more, especially AWS Lambda (or Lambda-like) services. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Apart from engineering modern, detailed but simple, blazing-fast apps, I love to mingle with data as well. I have a good understanding of Machine Learning in practice, and applied types of Neural Networks - using Python's \"numpy, scipy and pandas\". However, with the every day updates that happen in the Data Science domain, I've been happily focused on TensorFlow and its ease of applications. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Studied Computer & Information Sciences at University of Geneva. Able to think in higher levels of code and assist in software engineering and team leading. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " I speak fluent in English and French (and some Italian).")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 24 years old ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 web and software developer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 based in Tirana, Albania")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutDesc, null, "For the past 3 years, I've been actively developing web apps and software in different domains and for various clients. I've worked extensively with Agile and Scrum teams, but also freelanced work to various, local clients. Currently, I'm engaged as a full-time web developer at 'Ritech Solutions', at its offices in Tirana, Albania. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "My specialties mostly include JavaScript and Python-based environments. Most of my experiences have been on client-side apps, however I've worked with highly-specialized back-end teams very often, and have developed APIs and cloud-based data structures before, as a full-stack developer. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Apart from engineering modern, detailed but simple, blazing-fast apps, I love to mingle with data as well. I have a good understanding of Machine Learning in practice, and applied types of Neural Networks - using Python's \"numpy, scipy and pandas\". However, with the every day updates that happen in the Data Science domain, I've been happily focused on TensorFlow and its ease of applications. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Studied Computer & Information Sciences at University of Geneva. Able to think in higher levels of code and assist in software engineering and team leading. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " I speak fluent in English and French (and some Italian).")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
     offset: 2
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutHero, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 I love Slack ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 I believe in Quantum Mechanics ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 I play the piano and Skyrim"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_Contact__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconContainer, {
+    className: "icon--container"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "devicon-nodejs-plain-wordmark"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "devicon-python-plain-wordmark"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "devicon-vuejs-plain-wordmark"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "devicon-react-original-wordmark"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "devicon-amazonwebservices-plain-wordmark"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "devicon-webpack-plain-wordmark"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "devicon-git-plain-wordmark"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutHero, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 I love Slack ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 I believe in Quantum Mechanics ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 I play the piano and Skyrim"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_Contact__WEBPACK_IMPORTED_MODULE_9__["default"], {
     offset: 2.7
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Inner__WEBPACK_IMPORTED_MODULE_8__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Titles__WEBPACK_IMPORTED_MODULE_7__["Title"], null, "Get in touch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactText, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "mailto:eugen.yzeiri@gmail.com"
