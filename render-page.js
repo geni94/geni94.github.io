@@ -117,7 +117,7 @@ var plugins = [{
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-google-analytics/gatsby-ssr */ "./node_modules/gatsby-plugin-google-analytics/gatsby-ssr.js"),
   options: {
     "plugins": [],
-    "trackingId": "UA-47519312-5"
+    "trackingId": "UA-83799534-1"
   }
 }, {
   plugin: __webpack_require__(/*! ./node_modules/gatsby-plugin-manifest/gatsby-ssr */ "./node_modules/gatsby-plugin-manifest/gatsby-ssr.js"),
@@ -125,7 +125,7 @@ var plugins = [{
     "plugins": [],
     "name": "Eugen's Portfolio",
     "short_name": "Eugen",
-    "description": "Playful & Colorful website for displaying a portfolio",
+    "description": "A web developer, tech enthusiast and avid learner, and this is a playful & Colorful website for displaying my portfolio.",
     "start_url": "/",
     "background_color": "#a0d8f1",
     "theme_color": "#e07628",
@@ -1036,19 +1036,15 @@ module.exports = {
   // short_name for manifest
   siteHeadline: 'Web and software developer',
   // Headline for schema.org JSONLD
-  siteUrl: 'https://geni94.github.io',
+  siteUrl: 'http://eugenyzeiri.xyz',
   // Domain of your site. No trailing slash!
   siteLanguage: 'en',
   // Language Tag on <html> element
   siteLogo: '/logo.png',
   // Used for SEO and manifest
-  siteDescription: 'Playful & Colorful website for displaying a portfolio',
+  siteDescription: 'A web developer, tech enthusiast and avid learner, and this is a playful & Colorful website for displaying my portfolio.',
   author: 'geni94',
-  // siteFBAppID: '123456789', // Facebook App ID - Optional
-  // userTwitter: '@cara', // Twitter Username
-  // ogSiteName: 'cara', // Facebook Site Name
-  // ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: 'UA-47519312-5',
+  googleAnalyticsID: 'UA-83799534-1',
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
   backgroundColor: tailwind.colors.blue
@@ -10199,7 +10195,7 @@ module.exports = __webpack_require__(/*! ../lib/plugins/container */ "./node_mod
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = {"data":{"site":{"buildTime":"2019-04-07"}}};
+module.exports = {"data":{"site":{"buildTime":"2019-04-23"}}};
 
 /***/ }),
 
