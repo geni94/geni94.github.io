@@ -63,13 +63,57 @@ a {
 }
 
 .icon--container {
+  z-index: 99999;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);  border-radius: 5px;
+  image-rendering: pixelated;
+  //background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);  border-radius: 5px;
+  background-image: url("https://images.unsplash.com/photo-1515446808777-87f69cb475aa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  //background-image: url("https://images.unsplash.com/photo-1543147495-b6984a841135?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1022&q=80");
+  //background-image: url("https://images.unsplash.com/photo-1543253740-c3047484b0d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
   i {
     font-size: 120px;
   }
+  img {image-rendering: pixelated;}
   div { margin: 1em 0;width: 100%;display: flex;justify-content: space-around; }
+}
+.tooltip {
+  display: inline-block;
+  position: relative;
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 6px;
+  border-radius: 6px;
+  min-width: 120px;
+  width: auto;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  font-size: 24px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .icon--container {
+    flex-direction: row;
+    margin: 0;
+    div {
+      flex-direction: column;
+    }
+  }
 }
