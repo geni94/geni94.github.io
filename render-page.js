@@ -11104,7 +11104,7 @@ var ContactText = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p.wi
 
 var Profile = function Profile() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring_renderprops_addons_cjs__WEBPACK_IMPORTED_MODULE_3__["Parallax"], {
-    pages: 5
+    pages: 4
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuDiv, {
     offset: 0
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -11116,14 +11116,11 @@ var Profile = function Profile() {
   }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Titles__WEBPACK_IMPORTED_MODULE_7__["BigTitle"], null, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutHero, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Avatar, {
     src: _images_avatar_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
     alt: "Eugen Yzeiri"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 24 years old ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 web and software developer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 based in Tirana, Albania"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    className: "about--wrapper",
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 web and software developer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 Contributing since 2016 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 based in Tirana, Albania ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 CS at the University of Geneva"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
     offset: 1
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutDesc, null, "For the past 3 years, I've been actively developing web apps and software in different domains and for various clients. I've worked extensively with Agile and Scrum teams, but also freelanced work to various, local clients. Currently, I'm engaged as a full-time web developer at 'Ritech Solutions', at its offices in Tirana, Albania. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "My specialties mostly include JavaScript and Python-based environments. Most of my experiences have been on client-side apps, however I've worked with highly-specialized back-end teams very often, and have developed APIs and cloud-based data structures before, as a full-stack developer. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Apart from engineering modern, detailed but simple, blazing-fast apps, I love to mingle with data as well. I have a good understanding of Machine Learning in practice, and applied types of Neural Networks - using Python's \"numpy, scipy and pandas\". However, with the every day updates that happen in the Data Science domain, I've been happily focused on TensorFlow and its ease of applications. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Studied Computer & Information Sciences at University of Geneva. Able to think in higher levels of code and assist in software engineering and team leading. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " I speak fluent in English and French (and some Italian).")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    offset: 2
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconContainer, {
     className: "icon--container"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Technical Expertise"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "tooltip devicon-nodejs-plain-wordmark"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "tooltiptext"
@@ -11165,7 +11162,7 @@ var Profile = function Profile() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "tooltiptext"
   }, "Project Delivery with CI and CD pipelines"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_Contact__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    offset: 3
+    offset: 2
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Inner__WEBPACK_IMPORTED_MODULE_8__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Titles__WEBPACK_IMPORTED_MODULE_7__["Title"], null, "Get in touch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactText, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "mailto:eugen.yzeiri@gmail.com"
   }, "Say hi"), " or find me ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
