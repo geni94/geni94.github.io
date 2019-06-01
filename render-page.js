@@ -390,7 +390,7 @@ exports.wrapRootElement = true;
 /*! exports provided: pages, dataPaths, default */
 /***/ (function(module) {
 
-module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-jsx","jsonName":"index","path":"/"},{"componentChunkName":"component---node-modules-gatsby-plugin-offline-app-shell-js","jsonName":"offline-plugin-app-shell-fallback-a30","path":"/offline-plugin-app-shell-fallback/"},{"componentChunkName":"component---src-pages-profile-jsx","jsonName":"profile-2a3","path":"/profile/"},{"componentChunkName":"component---src-pages-project-about-jsx","jsonName":"project-about-0ad","path":"/projectAbout/"},{"componentChunkName":"component---src-pages-project-single-jsx","jsonName":"project-single-aec","path":"/projectSingle/"}],"dataPaths":{"index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","offline-plugin-app-shell-fallback-a30":"604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8","profile-2a3":"716/path---profile-2-a-3-b0c-0SUcWyAf8ecbYDsMhQkEfPzV8","project-about-0ad":"411/path---project-about-0-ad-bd6-0SUcWyAf8ecbYDsMhQkEfPzV8","project-single-aec":"489/path---project-single-aec-5c4-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-seo-jsx":77616083}};
+module.exports = {"pages":[{"componentChunkName":"component---src-pages-index-jsx","jsonName":"index","path":"/"},{"componentChunkName":"component---node-modules-gatsby-plugin-offline-app-shell-js","jsonName":"offline-plugin-app-shell-fallback-a30","path":"/offline-plugin-app-shell-fallback/"},{"componentChunkName":"component---src-pages-profile-jsx","jsonName":"profile-2a3","path":"/profile/"},{"componentChunkName":"component---src-pages-project-about-jsx","jsonName":"project-about-0ad","path":"/projectAbout/"},{"componentChunkName":"component---src-pages-project-single-jsx","jsonName":"project-single-aec","path":"/projectSingle/"}],"dataPaths":{"dev-404-page-5f9":"386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8","index":"140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8","offline-plugin-app-shell-fallback-a30":"604/path---offline-plugin-app-shell-fallback-a-30-c5a-BawJvyh36KKFwbrWPg4a4aYuc8","profile-2a3":"716/path---profile-2-a-3-b0c-0SUcWyAf8ecbYDsMhQkEfPzV8","project-about-0ad":"411/path---project-about-0-ad-bd6-0SUcWyAf8ecbYDsMhQkEfPzV8","project-single-aec":"489/path---project-single-aec-5c4-0SUcWyAf8ecbYDsMhQkEfPzV8","sq--src-components-seo-jsx":77616083}};
 
 /***/ }),
 
@@ -10196,7 +10196,7 @@ module.exports = __webpack_require__(/*! ../lib/plugins/container */ "./node_mod
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = {"data":{"site":{"buildTime":"2019-05-05"}}};
+module.exports = {"data":{"site":{"buildTime":"2019-06-01"}}};
 
 /***/ }),
 
@@ -10515,6 +10515,9 @@ var Head = function Head(props) {
   }, JSON.stringify(breadcrumb)), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("link", {
     rel: "stylesheet",
     href: "https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+  }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("script", {
+    async: true,
+    src: "https://kit.fontawesome.com/96bafe6745.js"
   }));
 };
 
@@ -10923,12 +10926,28 @@ var Index = function Index() {
     avgTypingDelay: 25,
     cursor: blinkingCursor
   }, "a web and software developer.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "link-menu"
+    className: "container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/projectAbout"
-  }, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Projects"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-arrow-right"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "My Contributions"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pic"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "button"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/profile"
-  }, "Profile")))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "card card2"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Profile"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-arrow-right"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Get to know me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "pic"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    type: "button"
+  })))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
@@ -10982,7 +11001,7 @@ var AboutHero = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.wi
 var MenuDiv = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "profile__MenuDiv",
   componentId: "j8uhc3-1"
-})(["", ""], {
+})(["", " flex-direction:column !important;"], {
   "display": "flex",
   "flexDirection": "column",
   "@media (min-width: 900px)": {
@@ -11085,7 +11104,7 @@ var ContactText = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].p.wi
 
 var Profile = function Profile() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_spring_renderprops_addons_cjs__WEBPACK_IMPORTED_MODULE_3__["Parallax"], {
-    pages: 4
+    pages: 5
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MenuDiv, {
     offset: 0
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -11094,14 +11113,14 @@ var Profile = function Profile() {
     to: "/"
   }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/projectAbout"
-  }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Titles__WEBPACK_IMPORTED_MODULE_7__["BigTitle"], null, "About Me")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    className: "about--wrapper",
-    offset: 0.7
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutHero, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Avatar, {
+  }, "Projects")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Titles__WEBPACK_IMPORTED_MODULE_7__["BigTitle"], null, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutHero, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Avatar, {
     src: _images_avatar_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
-    alt: "John Doe"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 24 years old ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 web and software developer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 based in Tirana, Albania")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutDesc, null, "For the past 3 years, I've been actively developing web apps and software in different domains and for various clients. I've worked extensively with Agile and Scrum teams, but also freelanced work to various, local clients. Currently, I'm engaged as a full-time web developer at 'Ritech Solutions', at its offices in Tirana, Albania. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "My specialties mostly include JavaScript and Python-based environments. Most of my experiences have been on client-side apps, however I've worked with highly-specialized back-end teams very often, and have developed APIs and cloud-based data structures before, as a full-stack developer. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Apart from engineering modern, detailed but simple, blazing-fast apps, I love to mingle with data as well. I have a good understanding of Machine Learning in practice, and applied types of Neural Networks - using Python's \"numpy, scipy and pandas\". However, with the every day updates that happen in the Data Science domain, I've been happily focused on TensorFlow and its ease of applications. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Studied Computer & Information Sciences at University of Geneva. Able to think in higher levels of code and assist in software engineering and team leading. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " I speak fluent in English and French (and some Italian)."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutHero, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 I love Slack ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 I believe in Quantum Mechanics ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 I play the piano and Skyrim"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    offset: 1.8
+    alt: "Eugen Yzeiri"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutSub, null, "\u2022 24 years old ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 web and software developer ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " \u2022 based in Tirana, Albania"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    className: "about--wrapper",
+    offset: 1
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(AboutDesc, null, "For the past 3 years, I've been actively developing web apps and software in different domains and for various clients. I've worked extensively with Agile and Scrum teams, but also freelanced work to various, local clients. Currently, I'm engaged as a full-time web developer at 'Ritech Solutions', at its offices in Tirana, Albania. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "My specialties mostly include JavaScript and Python-based environments. Most of my experiences have been on client-side apps, however I've worked with highly-specialized back-end teams very often, and have developed APIs and cloud-based data structures before, as a full-stack developer. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Apart from engineering modern, detailed but simple, blazing-fast apps, I love to mingle with data as well. I have a good understanding of Machine Learning in practice, and applied types of Neural Networks - using Python's \"numpy, scipy and pandas\". However, with the every day updates that happen in the Data Science domain, I've been happily focused on TensorFlow and its ease of applications. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Studied Computer & Information Sciences at University of Geneva. Able to think in higher levels of code and assist in software engineering and team leading. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " I speak fluent in English and French (and some Italian).")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_About__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    offset: 2
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(IconContainer, {
     className: "icon--container"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
@@ -11146,7 +11165,7 @@ var Profile = function Profile() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "tooltiptext"
   }, "Project Delivery with CI and CD pipelines"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_views_Contact__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    offset: 2.7
+    offset: 3
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Inner__WEBPACK_IMPORTED_MODULE_8__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_elements_Titles__WEBPACK_IMPORTED_MODULE_7__["Title"], null, "Get in touch"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContactText, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "mailto:eugen.yzeiri@gmail.com"
   }, "Say hi"), " or find me ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
