@@ -1,6 +1,6 @@
 $thetransition: all .25s cubic-bezier(1,.25,0,.75) 0s;
 
-a {
+a, .btn-link {
   text-decoration: none;
   position: relative;
 
@@ -31,6 +31,10 @@ a {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+}
+
+.mt-3 {
+  margin-top: 3rem;
 }
 
 .link-menu {
@@ -127,6 +131,13 @@ $img-url2: "https://media.giphy.com/media/4WSTSdQZXwME0/giphy.gif";
 
 h2 {
   pointer-events:none;
+}
+
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
 }
 
 .container {
