@@ -38,6 +38,8 @@ a, .btn-link {
 }
 
 .link-menu {
+  text-align: center;
+  padding: 1rem 0;
   a {
     font-size: 24px;
     font-weight: 700;
@@ -508,3 +510,5 @@ h2 {
   right: 1rem;
   font-size: 0.9em;
 }
+
+@import "prices";

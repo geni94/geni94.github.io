@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{Gfnh:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),r=a.n(t),l=a("rIun"),c=a("L6Je");n.default=function(){return r.a.createElement(r.a.Fragment,null,r.a.createElement(c.a,null),r.a.createElement(l.Parallax,{pages:"1"},r.a.createElement("p",null,"This is a description of the work.")))}}}]);
+//# sourceMappingURL=component---src-pages-project-single-jsx-b5c25ba07f27fef6e303.js.map
